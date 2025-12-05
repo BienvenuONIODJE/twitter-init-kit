@@ -58,11 +58,6 @@ logs/
 dist/
 build/
 
-# Project specific
-.specify/
-.twitterkit/
-specs/
-!specs/000-twitter-init-kit-foundation/
 
 # Temporary files
 *.tmp
