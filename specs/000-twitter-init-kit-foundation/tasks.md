@@ -31,28 +31,28 @@ This twitter-init-kit project is a **meta-toolkit** - we're building a toolkit f
 
 ### A. Project Structure Setup (Owner: Lead Dev)
 
-- [ ] T001 Verify pyproject.toml has correct `twitter_cli` entry point and package name `twitter_cli`
-- [ ] T002 Create `.twitterkit/` package directory structure mirroring `.specify/`
-- [ ] T003 Create `.twitterkit/memory/` directory for constitution and memory files
-- [ ] T004 Create `.twitterkit/scripts/bash/` directory for adapted scripts
-- [ ] T005 Create `.twitterkit/templates/` directory for domain-adapted templates
-- [ ] T006 Create `.twitterkit/templates/commands/` directory for slash command definitions
-- [ ] T007 Create `src/twitter_cli/` directory structure for CLI implementation
+- [x] T001 Verify pyproject.toml has correct `twitterify` entry point and package name `twitterify-cli`
+- [x] T002 Create `.twitterkit/` package directory structure mirroring `.specify/`
+- [x] T003 Create `.twitterkit/memory/` directory for constitution and memory files
+- [x] T004 Create `.twitterkit/scripts/bash/` directory for adapted scripts
+- [x] T005 Create `.twitterkit/templates/` directory for domain-adapted templates
+- [x] T006 Create `.twitterkit/templates/commands/` directory for slash command definitions
+- [x] T007 Create `src/twitterify_cli/` directory structure for CLI implementation
 
 ### B. Multi-Kit Architecture Validation (Owner: Lead Dev)
 
-- [ ] T008 Document namespace strategy in `specs/000-twitter-init-kit-foundation/research.md`
-- [ ] T009 Verify `.specify/` and `.twitterkit/` can coexist without conflicts
-- [ ] T010 Document CLI naming strategy: `specify` vs `twitter_cli` 
-- [ ] T011 Document slash command namespacing: `/speckit.*` vs `/twitterkit.*` vs `/pmkit.*`
+- [x] T008 Document namespace strategy in `specs/000-twitter-init-kit-foundation/research.md`
+- [x] T009 Verify `.specify/` and `.twitterkit/` can coexist without conflicts
+- [x] T010 Document CLI naming strategy: `specify` vs `twitterify` vs `pmify`
+- [x] T011 Document slash command namespacing: `/speckit.*` vs `/twitterkit.*` vs `/pmkit.*`
 - [ ] T012 Create architecture diagram showing multi-kit coexistence
 
 ### C. Development Tooling (Owner: Lead Dev)
 
 - [ ] T013 Set up Python development environment (Python 3.11+)
 - [ ] T014 Install dependencies: typer, rich, httpx, platformdirs, readchar, truststore
-- [ ] T015 Create `tests/` directory structure for integration tests
-- [ ] T016 Create `tests/fixtures/` directory for test data
+- [x] T015 Create `tests/` directory structure for integration tests
+- [x] T016 Create `tests/fixtures/` directory for test data
 
 ---
 
