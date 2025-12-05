@@ -199,12 +199,12 @@ This twitter-init-kit project is a **meta-toolkit** - we're building a toolkit f
 
 ### A. Core Documentation (Owner: Content Lead)
 
-- [ ] T094 Create `specs/000-twitter-init-kit-foundation/quickstart.md` with getting started guide
-- [ ] T095 Document installation: `uv tool install twitter_cli --from git+...`
-- [ ] T096 Document initialization: `twitter_cli init my-campaign --ai claude`
-- [ ] T097 Document workflow: `/twitterkit.constitution` → `/twitterkit.specify` → `/twitterkit.plan` → `/twitterkit.tasks` → `/twitterkit.implement`
-- [ ] T098 Add example use case: "Launch a 4-week Twitter campaign for AI SaaS product"
-- [ ] T099 Add troubleshooting section (common errors, solutions)
+- [x] T094 Create `specs/000-twitter-init-kit-foundation/quickstart.md` with getting started guide
+- [x] T095 Document installation: `uv tool install twitter_cli --from git+...`
+- [x] T096 Document initialization: `twitter_cli init my-campaign --ai claude`
+- [x] T097 Document workflow: `/twitterkit.constitution` → `/twitterkit.specify` → `/twitterkit.plan` → `/twitterkit.tasks` → `/twitterkit.implement`
+- [x] T098 Add example use case: "Launch a 4-week Twitter campaign for AI SaaS product"
+- [x] T099 Add troubleshooting section (common errors, solutions)
 
 ### B. Reference Documentation (Owner: Content Lead)
 
@@ -213,15 +213,15 @@ This twitter-init-kit project is a **meta-toolkit** - we're building a toolkit f
 - [ ] T102 [P] Finalize `refs/2_define_for_specify.md` with spec template adaptation guide
 - [ ] T103 [P] Finalize `refs/3_project_mangement_for_plan.md` with plan template adaptation guide
 - [ ] T104 [P] Finalize `refs/4_pm_tasking_for_tasks.md` with tasks template adaptation guide
-- [ ] T105 Create `refs/6_variant_creation_guide.md` for future kit creators (pm-kit, pd-kit)
+- [x] T105 Create `refs/6_variant_creation_guide.md` for future kit creators (pm-kit, pd-kit)
 
 ### C. README Updates (Owner: Content Lead)
 
-- [ ] T106 Update root `README.md` with twitter-init-kit overview
-- [ ] T107 Add "Multi-Kit Architecture" section explaining coexistence with spec-kit
-- [ ] T108 Add "Supported AI Agents" section (Claude Code, Cursor, Windsurf, Gemini CLI)
-- [ ] T109 Add "Template Transformation Guide" for creating new kit variants
-- [ ] T110 Add case study examples (Cursor, Runway, HeyGen Twitter strategies)
+- [x] T106 Update root `README.md` with twitter-init-kit overview
+- [x] T107 Add "Multi-Kit Architecture" section explaining coexistence with spec-kit
+- [x] T108 Add "Supported AI Agents" section (Claude Code, Cursor, Windsurf, Gemini CLI)
+- [x] T109 Add "Template Transformation Guide" for creating new kit variants
+- [x] T110 Add case study examples (Cursor, Runway, HeyGen Twitter strategies)
 
 ---
 
