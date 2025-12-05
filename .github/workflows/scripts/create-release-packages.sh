@@ -277,7 +277,7 @@ echo ""
 
 for agent in "${AGENT_ARRAY[@]}"; do
   for script in "${SCRIPT_ARRAY[@]}"; do
-    ((current++))
+    ((++current))
     echo "[${current}/${total_variants}]"
     build_variant "$agent" "$script" "$VERSION" || {
       echo "    ❌ Failed to build ${agent}-${script}" >&2
