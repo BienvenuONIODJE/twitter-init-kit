@@ -92,47 +92,47 @@ This twitter-init-kit project is a **meta-toolkit** - we're building a toolkit f
 
 ### A. Constitution Template (Owner: Content Lead)
 
-- [ ] T032 Copy `.specify/memory/constitution.md` to `.twitterkit/memory/constitution.md` as base
-- [ ] T033 Adapt constitution for Twitter marketing domain (founder-led, demo-driven, PLG)
-- [ ] T034 Add Twitter-specific principles from `refs/1_principles_for_constitution.md`
-- [ ] T035 Ground principles in 2023-2025 case studies (Cursor, Runway, HeyGen)
-- [ ] T036 Add multi-kit architecture governance to constitution
-- [ ] T037 Add scope boundaries (in-scope: Twitter marketing, out-of-scope: code implementation)
+- [x] T032 Copy `.specify/memory/constitution.md` to `.twitterkit/memory/constitution.md` as base
+- [x] T033 Adapt constitution for Twitter marketing domain (founder-led, demo-driven, PLG)
+- [x] T034 Add Twitter-specific principles from `refs/1_principles_for_constitution.md`
+- [x] T035 Ground principles in 2023-2025 case studies (Cursor, Runway, HeyGen)
+- [x] T036 Add multi-kit architecture governance to constitution
+- [x] T037 Add scope boundaries (in-scope: Twitter marketing, out-of-scope: code implementation)
 
 ### B. Spec Template (Owner: Content Lead)
 
-- [ ] T038 Copy `.specify/templates/spec-template.md` to `.twitterkit/templates/spec-template.md`
-- [ ] T039 Replace "User Stories" section with "Campaign Objectives" following `refs/2_define_for_specify.md`
-- [ ] T040 Replace "Technical Requirements" with "Channel Strategies & Content Strategy"
-- [ ] T041 Replace "Acceptance Criteria" with "Success Metrics" (engagement, activation, retention)
-- [ ] T042 Add "Twitter Personas" section (technical founders, growth leads, target audience)
-- [ ] T043 Add "Hero Workflow → Twitter Content" mapping section
-- [ ] T044 Add "Growth Loops" section (demo-to-inbound, artifact loop, template loop)
-- [ ] T045 Add "Twitter Narrative Type" section (positioning on Twitter)
-- [ ] T046 Update template variables: $PERSONA_PRIMARY, $HERO_WORKFLOW, $CHANNELS, $SUCCESS_METRICS
+- [x] T038 Copy `.specify/templates/spec-template.md` to `.twitterkit/templates/spec-template.md`
+- [x] T039 Replace "User Stories" section with "Campaign Objectives" following `refs/2_define_for_specify.md`
+- [x] T040 Replace "Technical Requirements" with "Channel Strategies & Content Strategy"
+- [x] T041 Replace "Acceptance Criteria" with "Success Metrics" (engagement, activation, retention)
+- [x] T042 Add "Twitter Personas" section (technical founders, growth leads, target audience)
+- [x] T043 Add "Hero Workflow → Twitter Content" mapping section
+- [x] T044 Add "Growth Loops" section (demo-to-inbound, artifact loop, template loop)
+- [x] T045 Add "Twitter Narrative Type" section (positioning on Twitter)
+- [x] T046 Update template variables: $PERSONA_PRIMARY, $HERO_WORKFLOW, $CHANNELS, $SUCCESS_METRICS
 
 ### C. Plan Template (Owner: Content Lead)
 
-- [ ] T047 Copy `.specify/templates/plan-template.md` to `.twitterkit/templates/plan-template.md`
-- [ ] T048 Replace "Technical Context" with "Twitter Context" following `refs/3_project_mangement_for_plan.md`
-- [ ] T049 Replace "Architecture" section with "Twitter Sprint Cycle" (2-week cadences)
-- [ ] T050 Add "Objectives & Strategy" section (All-Bound Engine, Sprint-Based Experimentation, Wow Loop)
-- [ ] T051 Add "Phased Launch & Activation Plan" section (Stealth Alpha, Waitlist Beta, Public Launch)
-- [ ] T052 Add "Growth Loops & Viral Mechanisms" section (Demo-to-Inbound, Artifact, Template)
-- [ ] T053 Add "Metrics & Measurement" section (activation, retention, virality, sentiment)
-- [ ] T054 Add "Experiment Log Template" section (hypothesis-driven testing)
-- [ ] T055 Update template variables: $CHANNELS, $CONTENT_PILLARS, $GROWTH_LOOPS
+- [x] T047 Copy `.specify/templates/plan-template.md` to `.twitterkit/templates/plan-template.md`
+- [x] T048 Replace "Technical Context" with "Twitter Context" following `refs/3_project_mangement_for_plan.md`
+- [x] T049 Replace "Architecture" section with "Twitter Sprint Cycle" (2-week cadences)
+- [x] T050 Add "Objectives & Strategy" section (All-Bound Engine, Sprint-Based Experimentation, Wow Loop)
+- [x] T051 Add "Phased Launch & Activation Plan" section (Stealth Alpha, Waitlist Beta, Public Launch)
+- [x] T052 Add "Growth Loops & Viral Mechanisms" section (Demo-to-Inbound, Artifact, Template)
+- [x] T053 Add "Metrics & Measurement" section (activation, retention, virality, sentiment)
+- [x] T054 Add "Experiment Log Template" section (hypothesis-driven testing)
+- [x] T055 Update template variables: $CHANNELS, $CONTENT_PILLARS, $GROWTH_LOOPS
 
 ### D. Tasks Template (Owner: Content Lead)
 
-- [ ] T056 Copy `.specify/templates/tasks-template.md` to `.twitterkit/templates/tasks-template.md`
-- [ ] T057 Replace "Implementation Tasks" with "Twitter Execution Tasks" following `refs/4_pm_tasking_for_tasks.md`
-- [ ] T058 Add "Phase 1: Setup & Foundation" (profile, tooling, content bank)
-- [ ] T059 Add "Phase 2: Stealth Alpha" (outreach, growth engineering, content testing)
-- [ ] T060 Add "Phase 3: Public Launch" (launch day execution, post-launch momentum)
-- [ ] T061 Add "Phase 4: Scale Machine" (weekly recurring tasks, growth loop optimization)
-- [ ] T062 Add "Roles & Ownership" section (Founder, Growth Lead, Content Lead, Product Eng)
-- [ ] T063 Add "Checkpoints & Exit Criteria" section (Alpha → Launch → Scale gates)
+- [x] T056 Copy `.specify/templates/tasks-template.md` to `.twitterkit/templates/tasks-template.md`
+- [x] T057 Replace "Implementation Tasks" with "Twitter Execution Tasks" following `refs/4_pm_tasking_for_tasks.md`
+- [x] T058 Add "Phase 1: Setup & Foundation" (profile, tooling, content bank)
+- [x] T059 Add "Phase 2: Stealth Alpha" (outreach, growth engineering, content testing)
+- [x] T060 Add "Phase 3: Public Launch" (launch day execution, post-launch momentum)
+- [x] T061 Add "Phase 4: Scale Machine" (weekly recurring tasks, growth loop optimization)
+- [x] T062 Add "Roles & Ownership" section (Founder, Growth Lead, Content Lead, Product Eng)
+- [x] T063 Add "Checkpoints & Exit Criteria" section (Alpha → Launch → Scale gates)
 
 ---
 
@@ -142,12 +142,12 @@ This twitter-init-kit project is a **meta-toolkit** - we're building a toolkit f
 
 ### A. Command Definitions (Owner: Lead Dev)
 
-- [ ] T064 [P] Create `.twitterkit/templates/commands/twitterkit.constitution.md` command definition
-- [ ] T065 [P] Create `.twitterkit/templates/commands/twitterkit.specify.md` command definition
-- [ ] T066 [P] Create `.twitterkit/templates/commands/twitterkit.plan.md` command definition
-- [ ] T067 [P] Create `.twitterkit/templates/commands/twitterkit.tasks.md` command definition
-- [ ] T068 [P] Create `.twitterkit/templates/commands/twitterkit.implement.md` command definition
-- [ ] T069 [P] Create `.twitterkit/templates/commands/twitterkit.clarify.md` command definition
+- [x] T064 [P] Create `.twitterkit/templates/commands/twitterkit.constitution.md` command definition
+- [x] T065 [P] Create `.twitterkit/templates/commands/twitterkit.specify.md` command definition
+- [x] T066 [P] Create `.twitterkit/templates/commands/twitterkit.plan.md` command definition
+- [x] T067 [P] Create `.twitterkit/templates/commands/twitterkit.tasks.md` command definition
+- [x] T068 [P] Create `.twitterkit/templates/commands/twitterkit.implement.md` command definition
+- [x] T069 [P] Create `.twitterkit/templates/commands/twitterkit.clarify.md` command definition
 
 ### B. Command Implementation (Owner: Lead Dev)
 
