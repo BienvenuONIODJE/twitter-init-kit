@@ -1,6 +1,15 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+# Cross-platform sha256 function
+get_sha256() {
+  if command -v sha256sum &>/dev/null; then
+    sha256sum "$1" | cut -d' ' -f1
+  else
+    shasum -a 256 "$1" | cut -d' ' -f1
+  fi
+}
+
 # build-templates.sh
 # Local build wrapper for twitter-Kit template generation
 # Enables testing template generation without CI/CD
@@ -96,7 +105,7 @@ MANIFEST_EOF
 
     local filename=$(basename "$zip_file")
     local size=$(wc -c < "$zip_file" | tr -d ' ')
-    local sha256=$(shasum -a 256 "$zip_file" | cut -d' ' -f1)
+    local sha256=$(get_sha256 "$zip_file")
 
     # Extract agent and script from filename
     if [[ $filename =~ spec-kit-template-([^-]+)-(sh|ps)-v[0-9]+\.[0-9]+\.[0-9]+.*\.zip ]]; then
@@ -159,7 +168,7 @@ echo "Sample Generated Templates:"
 find "$DIST_DIR" -name "*.zip" -type f | sort | head -3 | while read -r zip; do
   size=$(ls -lh "$zip" | awk '{print $5}')
   name=$(basename "$zip")
-  sha256=$(shasum -a 256 "$zip" | cut -d' ' -f1)
+  sha256=$(get_sha256 "$zip")
   echo "  • $name ($size)"
   echo "    SHA-256: $sha256"
 done

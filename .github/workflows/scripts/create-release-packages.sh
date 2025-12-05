@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+# Better error reporting
+trap 'echo "Error occurred on line $LINENO: $BASH_COMMAND"; exit 1' ERR
+
 # create-release-packages.sh
 # Generates Twitter-Kit template variants for all supported AI agents
 # Packages contents from .twitterkit/ directory in repository
@@ -253,8 +256,13 @@ build_variant() {
   # Clean up build directory
   rm -rf "$build_dir"
 
-  # Calculate checksum
-  local checksum=$(shasum -a 256 "$zip_file" | cut -d' ' -f1)
+  # Calculate checksum (use sha256sum on Linux, shasum on macOS)
+  local checksum
+  if command -v sha256sum &>/dev/null; then
+    checksum=$(sha256sum "$zip_file" | cut -d' ' -f1)
+  else
+    checksum=$(shasum -a 256 "$zip_file" | cut -d' ' -f1)
+  fi
   local size=$(wc -c < "$zip_file" | tr -d ' ')
 
   echo "    ✓ ${variant_name}.zip (${size} bytes, sha256:${checksum:0:16}...)"
