@@ -145,9 +145,11 @@ def init_command(
             console.print(f"[dim]Searched: {package_dir.parent.parent / '.twitterkit'}[/dim]")
         console.print("[yellow]⚠[/yellow] .twitterkit/ source not found")
 
-    # Copy slash commands to agent-specific directory if AI agent specified
-    if ai:
-        agent_key = ai.lower()
+    # Copy slash commands to agent-specific directory
+    # Default to Claude if no agent specified
+    selected_ai = ai.lower() if ai else "claude"
+    if True:  # Always install commands
+        agent_key = selected_ai
         if agent_key in AGENT_CONFIG:
             agent_dir, file_ext = AGENT_CONFIG[agent_key]
             commands_dir = target_dir / agent_dir
@@ -179,7 +181,7 @@ def init_command(
                         if debug:
                             console.print(f"[dim]Installed: {dest_name}[/dim]")
 
-                console.print(f"[green]✓[/green] Installed {installed_count} slash commands for {ai}")
+                console.print(f"[green]✓[/green] Installed {installed_count} slash commands for {selected_ai}")
             else:
                 console.print(f"[yellow]⚠[/yellow] Command templates not found")
         else:
@@ -233,8 +235,7 @@ Twitter marketing campaign powered by twitter-init-kit
         "7. Use /twitterkit.implement to execute tasks",
     ]
 
-    if ai:
-        next_steps.insert(1, f"   AI Agent: {ai}")
+    next_steps.insert(1, f"   AI Agent: {selected_ai}")
 
     console.print(
         Panel(
