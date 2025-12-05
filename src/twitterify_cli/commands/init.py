@@ -102,7 +102,14 @@ def init_command(
             console.print("[dim]Git repository already exists[/dim]")
 
     # Copy .twitterkit/ package to target directory
-    source_twitterkit = Path(__file__).parent.parent.parent.parent / ".twitterkit"
+    # Try multiple locations: bundled package data, then development repo root
+    package_dir = Path(__file__).parent.parent  # twitterify_cli/
+    source_twitterkit = package_dir / "_data" / ".twitterkit"  # Bundled location
+    
+    if not source_twitterkit.exists():
+        # Fallback: development mode - look at repo root
+        source_twitterkit = package_dir.parent.parent / ".twitterkit"
+    
     target_twitterkit = target_dir / ".twitterkit"
 
     if source_twitterkit.exists():
@@ -112,6 +119,9 @@ def init_command(
         shutil.copytree(source_twitterkit, target_twitterkit, dirs_exist_ok=True)
         console.print("[green]✓[/green] Installed .twitterkit/ package")
     else:
+        if debug:
+            console.print(f"[dim]Searched: {package_dir / '_data' / '.twitterkit'}[/dim]")
+            console.print(f"[dim]Searched: {package_dir.parent.parent / '.twitterkit'}[/dim]")
         console.print("[yellow]⚠[/yellow] .twitterkit/ source not found")
 
     # Copy slash commands to .claude/commands/ if AI agent specified

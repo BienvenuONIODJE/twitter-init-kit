@@ -108,7 +108,7 @@ MANIFEST_EOF
     local sha256=$(get_sha256 "$zip_file")
 
     # Extract agent and script from filename
-    if [[ $filename =~ spec-kit-template-([^-]+)-(sh|ps)-v[0-9]+\.[0-9]+\.[0-9]+.*\.zip ]]; then
+    if [[ $filename =~ twitter-kit-template-([^-]+)-(sh|ps)-v[0-9]+\.[0-9]+\.[0-9]+.*\.zip ]]; then
       local agent="${BASH_REMATCH[1]}"
       local script="${BASH_REMATCH[2]}"
 
@@ -194,7 +194,7 @@ if [[ $zip_count -gt 0 ]]; then
     echo "     $DIST_DIR"
     echo ""
     echo "  2. Test with CLI:"
-    echo "     twitter init test-project --template file://$DIST_DIR/spec-kit-template-claude-sh-$VERSION.zip"
+    echo "     twitter init test-project --template file://$DIST_DIR/twitter-kit-template-claude-sh-$VERSION.zip"
     echo ""
     echo "  3. Create a release:"
     echo "     gh release create $VERSION dist/templates/*.zip --draft --notes 'twitter-Kit $VERSION'"

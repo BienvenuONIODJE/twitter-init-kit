@@ -130,7 +130,7 @@ build_variant() {
   local script=$2
   local version=$3
 
-  local variant_name="spec-kit-template-${agent}-${script}-${version}"
+  local variant_name="twitter-kit-template-${agent}-${script}-${version}"
   local build_dir="$GENRELEASES_DIR/build-${variant_name}"
 
   echo "  Building ${agent} (${script})..."

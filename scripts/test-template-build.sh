@@ -185,7 +185,7 @@ BUILD_OUTPUT=$(cd "$REPO_ROOT" && bash .github/workflows/scripts/create-release-
   exit 1
 }
 
-ZIP_FILE="$REPO_ROOT/.genreleases/spec-kit-template-claude-sh-${TEST_VERSION}.zip"
+ZIP_FILE="$REPO_ROOT/.genreleases/twitter-kit-template-claude-sh-${TEST_VERSION}.zip"
 if [[ -f "$ZIP_FILE" ]]; then
   log_pass "Test ZIP created: $(basename "$ZIP_FILE")"
 else

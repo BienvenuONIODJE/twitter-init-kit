@@ -22,3 +22,6 @@ build-backend = "hatchling.build"
 [tool.hatch.build.targets.wheel]
 packages = ["src/twitterify_cli"]
 
+[tool.hatch.build.targets.wheel.force-include]
+".twitterkit" = "twitterify_cli/_data/.twitterkit"
+
