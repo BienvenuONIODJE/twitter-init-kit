@@ -62,27 +62,27 @@ This twitter-init-kit project is a **meta-toolkit** - we're building a toolkit f
 
 ### A. CLI Core (Owner: Lead Dev)
 
-- [ ] T017 Implement `src/twitter_cli/__init__.py` with main() entry point
-- [ ] T018 [P] Implement `src/twitter_cli/commands/init.py` for `twitter_cli init` command
-- [ ] T019 [P] Implement `src/twitter_cli/commands/check.py` for `twitter_cli check` command
-- [ ] T020 Implement `src/twitter_cli/template_engine.py` for template rendering
-- [ ] T021 Implement `src/twitter_cli/git_utils.py` for git operations
+- [x] T017 Implement `src/twitter_cli/__init__.py` with main() entry point
+- [x] T018 [P] Implement `src/twitter_cli/commands/init.py` for `twitter_cli init` command
+- [x] T019 [P] Implement `src/twitter_cli/commands/check.py` for `twitter_cli check` command
+- [x] T020 Implement `src/twitter_cli/template_engine.py` for template rendering
+- [x] T021 Implement `src/twitter_cli/git_utils.py` for git operations
 
 ### B. CLI Features (Owner: Lead Dev)
 
-- [ ] T022 [P] Implement `--ai` flag support (claude, cursor, windsurf, gemini, etc.)
-- [ ] T023 [P] Implement `--script` flag support (sh vs ps)
-- [ ] T024 [P] Implement `--here` and `--force` flags for current directory initialization
-- [ ] T025 [P] Implement `--no-git` flag to skip git initialization
-- [ ] T026 [P] Implement `--debug` flag for verbose output
-- [ ] T027 [P] Implement `--github-token` flag for API authentication
+- [x] T022 [P] Implement `--ai` flag support (claude, cursor, windsurf, gemini, etc.)
+- [x] T023 [P] Implement `--script` flag support (sh vs ps)
+- [x] T024 [P] Implement `--here` and `--force` flags for current directory initialization
+- [x] T025 [P] Implement `--no-git` flag to skip git initialization
+- [x] T026 [P] Implement `--debug` flag for verbose output
+- [x] T027 [P] Implement `--github-token` flag for API authentication
 
 ### C. Template Engine (Owner: Lead Dev)
 
-- [ ] T028 Implement variable substitution ($PROJECT_NAME, $FEATURE_NAME, etc.)
-- [ ] T029 Implement template validation (ensure all variables provided)
-- [ ] T030 Implement error handling for missing variables
-- [ ] T031 Implement template caching for performance
+- [x] T028 Implement variable substitution ($PROJECT_NAME, $FEATURE_NAME, etc.)
+- [x] T029 Implement template validation (ensure all variables provided)
+- [x] T030 Implement error handling for missing variables
+- [x] T031 Implement template caching for performance
 
 ---
 
@@ -151,18 +151,18 @@ This twitter-init-kit project is a **meta-toolkit** - we're building a toolkit f
 
 ### B. Command Implementation (Owner: Lead Dev)
 
-- [ ] T070 Ensure each command references `.twitterkit/` package folder (not `.specify/`)
-- [ ] T071 Ensure each command uses `twitterkit` namespace (not `speckit`)
-- [ ] T072 Add prerequisites section to each command (required files, context)
-- [ ] T073 Add execution steps section to each command (step-by-step AI agent instructions)
-- [ ] T074 Add expected outputs section to each command (files to create/update)
-- [ ] T075 Add validation section to each command (how to verify success)
+- [x] T070 Ensure each command references `.twitterkit/` package folder (not `.specify/`)
+- [x] T071 Ensure each command uses `twitterkit` namespace (not `speckit`)
+- [x] T072 Add prerequisites section to each command (required files, context)
+- [x] T073 Add execution steps section to each command (step-by-step AI agent instructions)
+- [x] T074 Add expected outputs section to each command (files to create/update)
+- [x] T075 Add validation section to each command (how to verify success)
 
 ### C. Command Installation (Owner: Lead Dev)
 
-- [ ] T076 Update `twitter_cli init` to copy command files to user project's `.claude/commands/` directory
-- [ ] T077 Implement namespace checking to avoid overwriting existing `/twitterkit.*` commands
-- [ ] T078 Add command discovery help text (`twitter_cli --help` should list available commands)
+- [x] T076 Update `twitter_cli init` to copy command files to user project's `.claude/commands/` directory
+- [x] T077 Implement namespace checking to avoid overwriting existing `/twitterkit.*` commands
+- [x] T078 Add command discovery help text (`twitter_cli --help` should list available commands)
 - [ ] T079 Test command installation with Claude Code agent
 - [ ] T080 Test command installation with Cursor agent
 - [ ] T081 Test command installation with Windsurf agent
@@ -175,19 +175,19 @@ This twitter-init-kit project is a **meta-toolkit** - we're building a toolkit f
 
 ### A. Core Scripts (Owner: Lead Dev)
 
-- [ ] T082 Copy `.specify/scripts/bash/create-new-feature.sh` to `.twitterkit/scripts/bash/create-new-campaign.sh`
-- [ ] T083 Adapt `create-new-campaign.sh` to create campaign branches (e.g., `001-alpha-launch`)
-- [ ] T084 Update script to reference `.twitterkit/templates/` instead of `.specify/templates/`
-- [ ] T085 Copy `.specify/scripts/bash/setup-plan.sh` to `.twitterkit/scripts/bash/setup-plan.sh`
-- [ ] T086 Adapt `setup-plan.sh` to check for Twitter-specific prerequisites
-- [ ] T087 Copy `.specify/scripts/bash/update-agent-context.sh` to `.twitterkit/scripts/bash/update-agent-context.sh`
-- [ ] T088 Adapt `update-agent-context.sh` to add Twitter-kit context to agent memory
+- [x] T082 Copy `.specify/scripts/bash/create-new-feature.sh` to `.twitterkit/scripts/bash/create-new-campaign.sh`
+- [x] T083 Adapt `create-new-campaign.sh` to create campaign branches (e.g., `001-alpha-launch`)
+- [x] T084 Update script to reference `.twitterkit/templates/` instead of `.specify/templates/`
+- [x] T085 Copy `.specify/scripts/bash/setup-plan.sh` to `.twitterkit/scripts/bash/setup-plan.sh`
+- [x] T086 Adapt `setup-plan.sh` to check for Twitter-specific prerequisites
+- [x] T087 Copy `.specify/scripts/bash/update-agent-context.sh` to `.twitterkit/scripts/bash/update-agent-context.sh`
+- [x] T088 Adapt `update-agent-context.sh` to add Twitter-kit context to agent memory
 
 ### B. Script Integration (Owner: Lead Dev)
 
-- [ ] T089 Update all scripts to use `.twitterkit/` namespace (not `.specify/`)
-- [ ] T090 Update all scripts to check for `twitter_cli` CLI (not `specify`)
-- [ ] T091 Test script execution on macOS
+- [x] T089 Update all scripts to use `.twitterkit/` namespace (not `.specify/`)
+- [x] T090 Update all scripts to check for `twitter_cli` CLI (not `specify`)
+- [x] T091 Test script execution on macOS
 - [ ] T092 Test script execution on Linux
 - [ ] T093 Create PowerShell equivalents for Windows support (`.twitterkit/scripts/ps/`)
 
