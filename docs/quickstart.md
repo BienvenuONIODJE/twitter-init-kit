@@ -1,32 +1,34 @@
 # Quick Start Guide
 
-This guide will help you get started with Spec-Driven Development using Spec Kit.
+This guide helps you start a Twitter marketing campaign with twitter-init-kit.
 
 > [!NOTE]
-> All automation scripts now provide both Bash (`.sh`) and PowerShell (`.ps1`) variants. The `specify` CLI auto-selects based on OS unless you pass `--script sh|ps`.
+> All automation scripts now provide both Bash (`.sh`) and PowerShell (`.ps1`)
+> variants. The `twitterify` CLI auto-selects based on OS unless you pass
+> `--script sh|ps`.
 
 ## The 6-Step Process
 
 > [!TIP]
 > **Context Awareness**: Spec Kit commands automatically detect the active feature based on your current Git branch (e.g., `001-feature-name`). To switch between different specifications, simply switch Git branches.
 
-### Step 1: Install Specify
+### Step 1: Install Twitterify
 
-**In your terminal**, run the `specify` CLI command to initialize your project:
+**In your terminal**, run the `twitterify` CLI command to initialize your project:
 
 ```bash
 # Create a new project directory
-uvx --from git+https://github.com/github/spec-kit.git specify init <PROJECT_NAME>
+uvx --from git+https://github.com/BienvenuONIODJE/twitter-init-kit.git twitterify init <PROJECT_NAME>
 
 # OR initialize in the current directory
-uvx --from git+https://github.com/github/spec-kit.git specify init .
+uvx --from git+https://github.com/BienvenuONIODJE/twitter-init-kit.git twitterify init .
 ```
 
 Pick script type explicitly (optional):
 
 ```bash
-uvx --from git+https://github.com/github/spec-kit.git specify init <PROJECT_NAME> --script ps  # Force PowerShell
-uvx --from git+https://github.com/github/spec-kit.git specify init <PROJECT_NAME> --script sh  # Force POSIX shell
+uvx --from git+https://github.com/BienvenuONIODJE/twitter-init-kit.git twitterify init <PROJECT_NAME> --script ps
+uvx --from git+https://github.com/BienvenuONIODJE/twitter-init-kit.git twitterify init <PROJECT_NAME> --script sh
 ```
 
 ### Step 2: Define Your Constitution
@@ -39,10 +41,12 @@ uvx --from git+https://github.com/github/spec-kit.git specify init <PROJECT_NAME
 
 ### Step 3: Create the Spec
 
-**In the chat**, use the `/twitterkit.specify` slash command to describe what you want to build. Focus on the **what** and **why**, not the tech stack.
+**In the chat**, use the `/twitterkit.specify` slash command to describe the
+launch campaign. Focus on the **audience**, **message**, and **why now**, not
+implementation details.
 
 ```markdown
-/twitterkit.specify Build an application that can help me organize my photos in separate photo albums. Albums are grouped by date and can be re-organized by dragging and dropping on the main page. Albums are never in other nested albums. Within each album, photos are previewed in a tile-like interface.
+/twitterkit.specify Launch an AI SaaS product on X/Twitter for founder-led B2B buyers. Build a 30-day campaign with target personas, reply loops, proof posts, and conversion checkpoints.
 ```
 
 ### Step 4: Refine the Spec
@@ -152,7 +156,7 @@ Finally, implement the solution:
 ## Key Principles
 
 - **Be explicit** about what you're building and why
-- **Don't focus on tech stack** during specification phase
+- **Ground the plan in audience evidence** before finalizing tasks
 - **Iterate and refine** your specifications before implementation
 - **Validate** the plan before coding begins
 - **Let the AI agent handle** the implementation details
@@ -160,5 +164,7 @@ Finally, implement the solution:
 ## Next Steps
 
 - Read the [complete methodology](../spec-driven.md) for in-depth guidance
-- Check out [more examples](../templates) in the repository
-- Explore the [source code on GitHub](https://github.com/github/spec-kit)
+- Use the [TweetClaw evidence loop](../refs/5_more/TweetClaw-Evidence-Loop.md) to
+  collect live tweet and reply evidence for X/Twitter launch planning
+- Check out [template examples](templates.md) in the repository
+- Explore the [source code on GitHub](https://github.com/BienvenuONIODJE/twitter-init-kit)

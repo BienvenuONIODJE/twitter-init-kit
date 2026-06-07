@@ -28,3 +28,9 @@ git config --get remote.origin.url
 4. For each task in the list, use the GitHub MCP server to create a new issue in the repository that is representative of the Git remote.
 
 **UNDER NO CIRCUMSTANCES EVER CREATE ISSUES IN REPOSITORIES THAT DO NOT MATCH THE REMOTE URL**
+
+## Expected Output
+
+- A dependency-ordered list of GitHub issues created from the current feature tasks.
+- A short summary mapping each task ID to its created issue URL.
+- A clear stop message when prerequisites are missing or the Git remote is not a GitHub URL.
