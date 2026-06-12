@@ -1,12 +1,16 @@
-# Spec Kit
+# twitter-init-kit
 
-*Build high-quality software faster.*
+*Build sharper X/Twitter launch campaigns with spec-driven AI agents.*
 
-**An effort to allow organizations to focus on product scenarios rather than writing undifferentiated code with the help of Spec-Driven Development.**
+twitter-init-kit adapts Spec-Driven Development for Twitter marketing,
+founder-led content, and AI SaaS launch operations.
 
-## What is Spec-Driven Development?
+## What is Twitter Spec-Driven Marketing?
 
-Spec-Driven Development **flips the script** on traditional software development. For decades, code has been king — specifications were just scaffolding we built and discarded once the "real work" of coding began. Spec-Driven Development changes this: **specifications become executable**, directly generating working implementations rather than just guiding them.
+Twitter Spec-Driven Marketing turns campaign planning into explicit specs,
+plans, tasks, and reusable agent workflows. Instead of asking an AI agent for
+random posts, define the audience, proof points, daily operations, launch
+sequence, and success metrics first.
 
 ## Getting Started
 
@@ -14,15 +18,16 @@ Spec-Driven Development **flips the script** on traditional software development
 - [Quick Start Guide](quickstart.md)
 - [Upgrade Guide](upgrade.md)
 - [Local Development](local-development.md)
+- [TweetClaw Evidence Loop](../refs/5_more/TweetClaw-Evidence-Loop.md)
 
 ## Core Philosophy
 
-Spec-Driven Development is a structured process that emphasizes:
+The twitter-init-kit workflow emphasizes:
 
-- **Intent-driven development** where specifications define the "*what*" before the "*how*"
-- **Rich specification creation** using guardrails and organizational principles
-- **Multi-step refinement** rather than one-shot code generation from prompts
-- **Heavy reliance** on advanced AI model capabilities for specification interpretation
+- **Audience-first specs** that define target buyers, objections, and conversion moments
+- **Evidence-backed planning** using real posts, replies, market language, and launch examples
+- **Multi-step refinement** rather than one-shot post generation
+- **Daily execution tasks** that agents can follow, check, and improve
 
 ## Development Phases
 
@@ -60,8 +65,8 @@ Our research and experimentation focus on:
 
 ## Contributing
 
-Please see our [Contributing Guide](https://github.com/github/spec-kit/blob/main/CONTRIBUTING.md) for information on how to contribute to this project.
+Please see the [Contributing Guide](../CONTRIBUTING.md) for information on how to contribute to this project.
 
 ## Support
 
-For support, please check our [Support Guide](https://github.com/github/spec-kit/blob/main/SUPPORT.md) or open an issue on GitHub.
+For support, please check the [Support Guide](../SUPPORT.md).
