@@ -75,5 +75,5 @@ recurring jobs without asking me first.
 ## Links
 
 - TweetClaw GitHub: https://github.com/Xquik-dev/tweetclaw
-- npm package: https://www.npmjs.com/package/@xquik/tweetclaw
+- npm registry metadata: https://registry.npmjs.org/@xquik%2ftweetclaw
 - Xquik docs: https://docs.xquik.com
